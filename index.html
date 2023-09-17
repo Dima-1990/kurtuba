@@ -15,8 +15,9 @@
 
 <body>
     <header >
-    <nav >
-        <ul >
+        <div class="container">
+    <nav class="hiden " >
+        <ul>
             <li><button type="button">О компании</button></li>
             <li><button type="button">Доставка и оплата</button></li>
             <li><button type="button">Гарантия</button></li>
@@ -27,35 +28,36 @@
         
                 
            <div >
-                            <img  src="./img/logo1.png" alt="logo">
-                            <span >Производитель запасных частей 
+                            <img class="logo" src="./img/logo1.png" alt="logo">
+                            <span class="hiden text" >Производитель запасных частей 
                                 для автоцистерн с высоким качеством
                             </span>
                         </div>
-                        <div >
+                        <div class="hiden" >
                             <p ><a href="tel:+380508085818">+380 50 808 58 18</a></p>
                             <span >Звонок по Украине бесплатный</span>
-            </div>              
+                        </div>              
                   
-            <div>
-                <ul>
-                    <li><a><svg class="" width="20" height="20">
-                  <use href="./img/symbol-defs.svg#icon-Category"></use>
-                    </svg>Весь каталог</a></li>
-                    <li><a>Адаптеры API</a></li>
-                    <li><a>Клапаны</a></li>
-                    <li><a>Люки</a></li>
-                    <li><a>Пароотводы</a></li>
-                    <li><a>Соединения</a></li>
-                    <li><a>Корзина 00гр.
-                            <svg class="" width="20" height="20">
-                                <use href="./img/symbol-defs.svg#icon-Buy"></use>
-                            </svg>
-                            <svg class="" width="20" height="20">
-                            <use href="./img/symbol-defs.svg#icon-Star"></use>
-                            </svg>
-                        </a></li>
-                </ul>
+                <div class="hiden">
+                    <ul>
+                        <li><a><svg class="" width="20" height="20">
+                    <use href="./img/symbol-defs.svg#icon-Category"></use>
+                        </svg>Весь каталог</a></li>
+                        <li><a>Адаптеры API</a></li>
+                        <li><a>Клапаны</a></li>
+                        <li><a>Люки</a></li>
+                        <li><a>Пароотводы</a></li>
+                        <li><a>Соединения</a></li>
+                        <li><a>Корзина 00гр.
+                                <svg class="" width="20" height="20">
+                                    <use href="./img/symbol-defs.svg#icon-Buy"></use>
+                                </svg>
+                                <svg class="" width="20" height="20">
+                                <use href="./img/symbol-defs.svg#icon-Star"></use>
+                                </svg>
+                            </a></li>
+                    </ul>
+                </div>
             </div>
     </header>
     
@@ -64,9 +66,25 @@
 <section class="hiro">
 
 <h1>Адаптор отвода ПВС со смотровым окном</h1>
-<p>Турецкое качество, высокая надежность, долгий срок службы</p>
-<a>Подробнее</a>
-<img src="./img/hiro-adapt.png" alt="адаптор">
+<p class="text hiro-text">Турецкое качество, высокая надежность, долгий срок службы</p>
+<a>
+    <div class="hiro-link text-stail">Подробнее</div>
+</a>
+
+<img class="hiro-img"
+     srcset="./img/hiro-adapt.png 1200w,
+             ./img/adapt-mob.png 600w"
+    
+     src="./img/hiro-adapt.png"
+     alt="адаптор">
+<!--  sizes="(max-width: 600px) 220px, 590px" -->
+
+
+<div class="scroll-dots">
+    <div class="dots"></div>
+    <div class="dots dots-center"></div>
+    <div class="dots"></div>
+</div>
 
 </section>
 

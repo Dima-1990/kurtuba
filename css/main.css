@@ -1,71 +1,115 @@
-/* 
-* {
+ * {
     margin: 0;
     padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline;
-    /* background: transparent; */
+    /* vertical-align: baseline; */
     list-style-type: none;
 }
 
-
-
-.header-nav {
-     background-color: #FFD036; 
-    text-align: -webkit-center;
-    margin-bottom: 25px;
+body{
+font-family: Inter;
+color: #1A1A1A;
 }
 
-.header-list{
-    max-width: 1160px;
-    display: flex;
-    justify-content: space-around;
+.text {
+color: #1A1A1A;
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 150%;
+}
+
+.text-stail{
+font-size: 14px;
+font-weight: 500;
+line-height: 100%; /* 14px */
+letter-spacing: 0.28px;
+}
+
+/* моб. вигляд */
+
+h1{
+width: 257px;
+
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 120%;
+
+margin-bottom: 10px;
+}
+
+.hiden{
+   display: none;
 }
 
 .container{
-   width: 1160px;
-   margin: 0 auto;
+  width: 320px;
 }
 
-.wrapper{
-     display: flex;
-     justify-content: space-between;
-     margin-bottom: 31px;
-}
+/* @media screen and (min-width: 320px){
 
-.header-list-btn{
-    background-color: rgba(255, 208, 54, 1);
-    height: 40px;
-    width: 232px;
-}
 
-.header-list li:nth-child(odd) {
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-}
-
-.header-info-text {
-    width: 233px;
-    color: #1A1A1A;
-    font-size: 12px;
-
-     display: inline-block;
-}
-
-.logo {
-    width: 178px;
-    height: 30px;
-    margin-right: 15px;
-}
-
-.header-tel{
-    display: flex;
-    justify-content: end;
-}
-
-.header-product-el{
-    display: flex;
-    justify-content: space-between;
 } */
+
+.logo{
+display:inline-flex ;
+width: 100px;
+}
+
+
+/* hiro blok */
+
+.hiro{
+  background-color: #E6E7ED;
+    
+  position: relative;
+}
+
+.hiro-img{
+  width: 160px; 
+
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.scroll-dots{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.dots{
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+
+  background-color: #455A64;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+
+.dots-center{
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.hiro-text{
+  width: 155px;
+
+  margin-bottom: 20px;
+}
+
+.hiro-link{
+  width: 155px;
+  height: 50px;
+  background-color: #FFD036;
+
+  margin-bottom: 48px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
