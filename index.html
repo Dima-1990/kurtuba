@@ -63,7 +63,7 @@
     
 <main>
     <!-- секція hiro -->
-<section class="hiro">
+<section class="hiro display">
 
 <h1>Адаптор отвода ПВС со смотровым окном</h1>
 <p class="text hiro-text">Турецкое качество, высокая надежность, долгий срок службы</p>
@@ -72,11 +72,11 @@
 </a>
 
 <img class="hiro-img"
-     srcset="./img/hiro-adapt.png 1200w,
-             ./img/adapt-mob.png 600w"
-    
-     src="./img/hiro-adapt.png"
-     alt="адаптор">
+     src="./img/adapt-mob.png"
+     srcset="./img/hiro-adapt.png 640w"
+     alt="адаптор"
+     sizes="(max-width: 640px) 100vw, 640px">
+
 <!--  sizes="(max-width: 600px) 220px, 590px" -->
 
 
@@ -90,271 +90,299 @@
 
 <!-- секція наші переваги -->
 
-<section>
-    <ul>
-        <li>
+<section class="display advantages ">
+    <ul class="advantages-ul display">
+        <li class="advantages-list ">
+            
             <svg class="" width="40" height="40">
                 <use href="./img/symbol-defs.svg#icon-diploma-1"></use>
             </svg>
-            <p>Вся продукция сертифицированна EN, соответствует ADR/ДОПОГ</p>
+            <p class="text">Вся продукция сертифицированна EN, соответствует ADR/ДОПОГ</p>
         </li>
 
-         <li>
+         <li class="advantages-list">
             <svg class="" width="40" height="40">
                 <use href="./img/symbol-defs.svg#icon-boxes-1"></use>
             </svg>
-            <p>Все позиции в наличии на складе в Киеве</p>
+            <p class="text">Все позиции в&nbsp;наличии на складе&nbsp;в Киеве</p>
         </li>
-
-         <li>
+        
+ <div class="advantages-line"></div>
+ <div class="advantages-line-two"></div>
+         <li class="advantages-list">
             <svg class="" width="40" height="40">
                 <use href="./img/symbol-defs.svg#icon-discount-voucher-1"></use>
             </svg>
-            <p>Работаем с НДС и рассрочкой, оплата по Р/С, на сайте или при получении</p>
+            <p class="text">Работаем с НДС и рассрочкой, оплата по Р/С, на сайте или&nbsp;при получении</p>
         </li>
 
-         <li>
+         <li class="advantages-list">
             <svg class="" width="40" height="40">
                 <use href="./img/symbol-defs.svg#icon-diploma-1"></use>
             </svg>
-            <p>Бесплатная доставка в любой город Украины от 2-х дней</p>
+            <p class="text">Бесплатная доставка&nbsp;в любой город Украины <nobr>от 2-х дней</nobr></p>
         </li>
 
     </ul>
 
+    
+
     <ul>
-        <li>
-            <img src="./img/Rectangle.png" alt="деталь">
-            <p>Kurtuba Makina Mühendislik Savunma Ltd — лидер на турецком рынке</p>
-            <svg class="" width="100" height="10">
-                <use href="./img/symbol-defs.svg#icon-Arrow-1"></use>
-            </svg>
+        <li class="advantages-retreat">
+            <img class="prods" src="./img/Rectangle.png" alt="деталь">
+            <div class="prods-container">
+                <p class="prods-text">Kurtuba Makina Mühendislik Savunma Ltd — лидер на&nbsp;турецком рынке</p>
+                <svg class="arrow" >
+                    <use  href="./img/symbol-defs.svg#icon-Arrow-1"></use>
+                </svg>
+            </div>
         </li>
 
-        <li>
-            <img src="./img/Rectangle2.png" alt="деталь">
-            <p>Сертификаты EN</p>
-            <svg class="" width="100" height="10">
-                <use href="./img/symbol-defs.svg#icon-Arrow-1"></use>
+        <li class="advantages-retreat">
+            <img class="prods" src="./img/Rectangle2.png" alt="деталь">
+            <div class="prods-container">
+            <p class="prods-text">Сертификаты EN</p>
+            <svg class="arrow" >
+                <use  href="./img/symbol-defs.svg#icon-Arrow-1"></use>
             </svg>
+            </div>
         </li>
 
-        <li>
-            <img src="./img/Rectangle3.png" alt="деталь">
-            <p>Квалифицированная помощь в подборе оборудования</p>
-            <svg class="" width="100" height="10">
-                <use href="./img/symbol-defs.svg#icon-Arrow-1"></use>
-            </svg>
+        <li class="advantages-retreat">
+            <img class="prods" src="./img/Rectangle3.png" alt="деталь">
+            <div class="prods-container">
+                <p class="prods-text">Квалифицированная помощь в&nbsp;подборе оборудования</p>
+                <svg class="arrow" >
+                    <use  href="./img/symbol-defs.svg#icon-Arrow-1"></use>
+                </svg>
+            </div>
         </li>
 
     </ul>
 </section>
 
 <!-- Каталог -->
-<section>
-    <h2>Каталог продукции Kurtuba Makina</h2>
-    <div>
+<section class="catalog">
+    <h2 class="catalog-title">Каталог продукции Kurtuba Makina</h2>
+    <div class="catalog-container">
+          
+                <svg class="catalog-search-svg" width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-Search"></use>
+                </svg>
 
-    <svg class="" width="24" height="24">
-    <use href="./img/symbol-defs.svg#icon-Search"></use>
-    </svg>
-
-    <input type="text">
-    
-    <button type="button">Поиск</button>
+                <input class="catalog-search" type="text">
+                <button class="catalog-btn" type="button">Поиск</button>
 
     </div>
 
 
-<ul>
-    <li>
-        <img src="./img/Rectangle13.png" alt="люки">
-        <p>Люки</p>
-        <p>от 9 990 &#8372</p>
+<ul class="catalog-list">
+    <li class="catalog-list-elem">
+        <img class="catalog-list-img" src="./img/Rectangle13.png" alt="люки">
+      <div class="catalog-list-elem-cont">
+        <p class="catalog-list-text">Люки</p>
+        <p class="catalog-list-text" >от 9 990 &#8372</p>
+      </div>
     </li>
 
-    <li>
-        <img src="./img/Rectangle12.png" alt="клапаны">
-        <p>Дыхательные клапаны</p>
-        <p>от 19 990 &#8372</p>
+    <li class="catalog-list-elem">
+        <img class="catalog-list-img" src="./img/Rectangle12.png" alt="клапаны">
+       <div class="catalog-list-elem-cont">
+        <p class="catalog-list-text">Дыхательные клапаны</p>
+        <p class="catalog-list-text" >от 19 990 &#8372</p>
+        </div>
     </li>
 
-    <li>
-        <img src="./img/Rectangle11.png" alt="клапаны">
-        <p>Паровые клапаны</p>
-        <p>от 9 990 &#8372</p>
+    <li class="catalog-list-elem">
+        <img class="catalog-list-img" src="./img/Rectangle11.png" alt="клапаны">
+       <div class="catalog-list-elem-cont">
+        <p class="catalog-list-text">Паровые клапаны</p>
+        <p class="catalog-list-text" >от 9 990 &#8372</p>
+        </div>
     </li>
 
-    <li>
-        <img src="./img/Rectangle14.png" alt="клапаны">
-        <p>Донные клапаны</p>
-        <p>от 23 990 &#8372</p>
+    <li class="catalog-list-elem">
+        <img class="catalog-list-img" src="./img/Rectangle14.png" alt="клапаны">
+        <div class="catalog-list-elem-cont">
+        <p class="catalog-list-text">Донные клапаны</p>
+        <p class="catalog-list-text" >от 23 990 &#8372</p>
+        </div>
     </li>
 
-    <li>
-        <img src="./img/Rectangle18.png" alt="разъемы">
-        <p>Датчики и разъемы</p>
-        <p>от 7 990 &#8372</p>
+    <li class="catalog-list-elem">
+        <img class="catalog-list-img" src="./img/Rectangle18.png" alt="разъемы">
+        <div class="catalog-list-elem-cont">
+        <p class="catalog-list-text">Датчики и разъемы</p>
+        <p class="catalog-list-text" >от 7 990 &#8372</p>
+        </div>
     </li>
 
-    <li>
-        <img src="./img/Rectangle15.png" alt="панели">
-        <p>Контрольные панели</p>
-        <p>от 21 990 &#8372</p>
+    <li class="catalog-list-elem">
+        <img class="catalog-list-img" src="./img/Rectangle15.png" alt="панели">
+       <div class="catalog-list-elem-cont">
+        <p class="catalog-list-text">Контрольные панели</p>
+        <p class="catalog-list-text" >от 21 990 &#8372</p>
+        </div>
     </li>
 
-    <li>
-        <img src="./img/Rectangle16.png" alt="Камлок">
-        <p>Камлок</p>
-        <p>от 7 990 &#8372</p>
+    <li class="catalog-list-elem">
+        <img class="catalog-list-img" src="./img/Rectangle16.png" alt="Камлок">
+        <div class="catalog-list-elem-cont">
+        <p class="catalog-list-text">Камлок</p>
+        <p class="catalog-list-text" >от 7 990 &#8372</p>
+        </div>
     </li>
 
-    <li>
-        <img src="./img/Rectangle17.png" alt="оборудование">
-        <p>Другое оборудование</p>
-        <p>от 3 990 &#8372</p>
+    <li class="catalog-list-elem">
+        <img class="catalog-list-img" src="./img/Rectangle17.png" alt="оборудование">
+        <div class="catalog-list-elem-cont">
+        <p class="catalog-list-text">Другое оборудование</p>
+        <p class="catalog-list-text" >от 3 990 &#8372</p>
+        </div>
     </li>
 </ul>
 
 </section>
 
 <!-- доставка -->
-<section>
-    <h2>Бесплатная доставка по всей Украине</h2>
-    <p>Все в наличии на складе, доставка по Украине от 2-х дней</p>
-    <img src="./img/Ukraine-png.png" alt="карта">
+<section class="display delivery">
+    <h2 class="delivery-title">Бесплатная доставка по&nbsp;всей Украине</h2>
+    <p>Все в наличии на складе, доставка по&nbsp;Украине от 2-х дней</p>
+    <img class="delivery-img" src="./img/Ukraine-png.png" alt="карта">
 </section>
 
 <!-- O нас -->
-<section>
-    <h3>Kurtuba Makina Mühendislik Savunma Ltd. является лидером в производстве комплектующий для автоцистерн на рынке Турции:</h3>
-<ul>
+<section class=" display about">
+    <h3 class="about-title">Kurtuba Makina Mühendislik Savunma Ltd. является лидером в производстве комплектующий для автоцистерн на рынке Турции:</h3>
+<ul class="about-list">
 
-    <li>
-        <p>Оборудование для нижнего и верхнего налива</p>
+    <li class="about-elem">
+        <p class="about-elem-text">Оборудование для нижнего и верхнего налива</p>
     </li>
 
-    <li>
-        <p>Клапаны</p>
+    <li class="about-elem">
+        <p class="about-elem-text">Клапаны</p>
     </li>
 
-    <li>
-        <p>Краны</p>
+    <li class="about-elem">
+        <p class="about-elem-text">Краны</p>
     </li>
 
-    <li>
-        <p>Люки и крышки</p>
+    <li class="about-elem">
+        <p class="about-elem-text">Люки и крышки</p>
     </li>
 
-     <li>
-        <p>Разгрузочные соединения и API-адаптеры</p>
+     <li class="about-elem">
+        <p class="about-elem-text">Разгрузочные соединения и API-адаптеры</p>
     </li>
 
-    <li>
-        <p>Дыхательные предохранители</p>
+    <li class="about-elem">
+        <p class="about-elem-text">Дыхательные предохранители</p>
     </li>
 
-    <li>
-        <p>Камлок</p>
+    <li class="about-elem">
+        <p class="about-elem-text">Камлок</p>
     </li>
 
-    <li>
-        <p>Панели управления автоцистерны</p>
+    <li class="about-elem">
+        <p class="about-elem-text">Панели управления автоцистерны</p>
     </li>
-     <li>
-        <p>Датчики</p>
-    </li>
-
-    <li>
-        <p>Предохранительные клапаны</p>
+     <li class="about-elem">
+        <p class="about-elem-text">Датчики</p>
     </li>
 
-    <li>
-        <p>Крышки</p>
+    <li class="about-elem">
+        <p class="about-elem-text">Предохранительные клапаны</p>
     </li>
 
-      <li>
-        <p>Фильтры</p>
+    <li class="about-elem">
+        <p class="about-elem-text">Крышки</p>
     </li>
 
-      <li>
-        <p>Индикаторы типа топлива</p>
+      <li class="about-elem">
+        <p class="about-elem-text">Фильтры</p>
     </li>
 
-      <li>
-        <p>Переходники</p>
+      <li class="about-elem">
+        <p class="about-elem-text">Индикаторы типа топлива</p>
     </li>
 
-      <li>
-        <p>И другое оборудование</p>
+      <li class="about-elem">
+        <p class="about-elem-text">Переходники</p>
+    </li>
+
+      <li class="about-elem">
+        <p class="about-elem-text">И другое оборудование</p>
     </li>
 
 </ul>
 
-<p>Автоцистерна — специализированное транспортное средство, которое за своей конструкцией и оснащением предназначенный для перевозки жидкостей, газов или порошковидных или гранулированных веществ и включает одну или несколько встроенных цистерн.</p>
-<p>Многоэлементный газовый контейнер — контейнер, который состоит из элементов, соединенных между собою коллектором и установленных в раме. Элементами многоэлементного газового контейнера считаются: баллоны, трубки, связи баллонов, барабаны под давлением, а также цистерны, предназначенные для перевозки газов 2-го класса опасности вместительностью свыше 450 л.</p>
+<p class="about-first-text">Автоцистерна — специализированное транспортное средство, которое за своей конструкцией и оснащением предназначенный для перевозки жидкостей, газов или порошковидных или гранулированных веществ и включает одну или несколько встроенных цистерн.</p>
+<p class="about-second-text">Многоэлементный газовый контейнер — контейнер, который состоит из элементов, соединенных между собою коллектором и&nbsp;установленных в раме. Элементами многоэлементного газового контейнера считаются: баллоны, трубки, связи баллонов, барабаны под давлением, а также цистерны, предназначенные для перевозки газов 2-го класса опасности вместительностью свыше&nbsp;450 л.</p>
 
 </section>
 
 
 <!-- Форма консультаціі -->
-<section>
-    <img src="./img/form-foto.png" alt="сотрудник">
+<section class="form">
+ 
+    <div class="form-position">
+        <h2 class="form-title">Получите бесплатную консультацию</h2>
+        <p class="form-text">Квалифицированные инженеры помогут&nbsp;вам подобрать оборудование</p>
 
-
-    <div>
-<h2>Получите бесплатную консультацию</h2>
-<p>Квалифицированные инженеры помогут вам подобрать оборудование</p>
-
-<form>
-    <input type="text" name="name" placeholder="Введите ваше имя" required>
-    <input type="tel" name="user-tel" placeholder=" " value="+380"  required  minlength="13" maxlength="13">
-    <input type="checkbox" name="policy" value="policy" required>
-    <label>Согласен с политикой обработки персональных данных</label>
-
-    <button type="button">Получить консультацию</button>
-</form>
+        <form>
+            <input class="input-stail" type="text" name="name" placeholder="Введите ваше имя" required>
+            <input  class="input-stail" type="tel" name="user-tel" placeholder="+3 805 017 230 23"   required  minlength="13" maxlength="13">
+                <div class="confiden-policy">
+                    <input class="checkbox" type="checkbox" name="policy" value="policy" required>
+                    <label class="checkbox-text">Согласен с политикой обработки персональных данных</label>
+                </div>
+            <button class="form-btn" type="button">Получить консультацию</button>
+        </form>
 
     </div>
+
+    <img class="form-img" src="./img/form-foto.png" alt="сотрудник">
 </section>
 
 </main>
 
 <!-- подвал -->
-       <footer>
+       <footer class="display">
 
         <div>
-            <img src="./img/logo1.png" alt="логотіп">
-            <p lang="tr">Kurtuba Makina Mühendislik Savunma Ltd. Şti.</p>
+            <img class="footer-img" src="./img/logo1.png" alt="логотіп">
+            <p class="footer-text" lang="tr">Kurtuba Makina Mühendislik Savunma Ltd. Şti.</p>
             <p>Политика конфиденциальности</p>
         </div>
 
         <div>
-            <ul>
-                <li><button type="button">Каталог</button></li>
-                <li><button type="button">Доставка и оплата</button></li>
-                <li><button type="button">Гарантия</button></li>
-                <li><button type="button">Сертификаты</button></li>
-                <li><button type="button">О компании</button></li>
-                <li><button type="button">Контакты</button></li>
+            <ul class="footer-list" >
+                <li class="foter-list-link"><a>Каталог</a></li>
+                <li class="foter-list-link"><a>Доставка и оплата</a></li>
+                <li class="foter-list-link"><a>Гарантия</a></li>
+                <li class="foter-list-link"><a>Сертификаты</a></li>
+                <li class="foter-list-link"><a>О компании</a></li>
+                <li class="foter-list-link"><a>Контакты</a></li>
             </ul>
         </div>
 
 
          <div>
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d175859.46677226145!2d30.654095360482373!3d46.472386832225666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6318a0b864c43%3A0x129f8fe28cf2176c!2z0J7QtNC10YHQsCwg0J7QtNC10YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDY1MDAw!5e0!3m2!1suk!2sua!4v1694445264599!5m2!1suk!2sua" 
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+        <iframe class="foter-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d175859.46677226145!2d30.654095360482373!3d46.472386832225666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6318a0b864c43%3A0x129f8fe28cf2176c!2z0J7QtNC10YHQsCwg0J7QtNC10YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDY1MDAw!5e0!3m2!1suk!2sua!4v1694445264599!5m2!1suk!2sua" 
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
         
         </div>
 
 
-         <div>
-            <p>8 800 123 45 67</p>
-            <p>Звонок по Украине бесплатный</p>
-            <button>Заказать звонок</button>
+         <div class="footer-phon-info">
+            <p class="footer-tel">8 800 123 45 67</p>
+            <p class="footer-tel-text">Звонок по Украине бесплатный</p>
+            <button class="footer-tel-btn">Заказать звонок</button>
          </div>
 
+         <a class="footer-polit">Политика конфиденциальности</a>
        </footer>        
 
 
