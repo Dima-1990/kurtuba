@@ -48,6 +48,8 @@ margin-bottom: 10px;
 
 .container{
   width: 320px;
+
+  background-color: #FFD036;
 }
 
 /* @media screen and (min-width: 320px){
@@ -55,7 +57,55 @@ margin-bottom: 10px;
 
 } */
 
+.mob-stail{
+ position: relative;
+
+  display: flex;
+  align-items: center;
+}
+
+.mob-menu-svg{
+  width: 20px;
+  height: 12px;
+
+  margin-right: 30px;
+}
+
+.mob-prais{
+  width: 130px;
+  height: 38px;
+
+  margin-left: 35px;
+
+  background-color: #FFF;
+
+  position: absolute;
+  top: 1px;
+  right: 1px;
+
+}
+
+.mob-prais-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+   margin-top: 9px; /* поганий варіант */
+}
+
+.mob-prais-total{
+color: #1A1A1A;
+font-size: 12px;
+font-weight: 500;
+line-height: 100%; /* 12px */
+text-transform: uppercase;
+}
+
 .logo{
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+
 display:inline-flex ;
 width: 100px;
 }
@@ -64,10 +114,13 @@ width: 100px;
 /* hiro blok */
 
 .hiro{
-  background-color: #E6E7ED;
+  background-color: rgba(230, 231, 237, 0.4);
     
   position: relative;
+
+  margin-top: 30px;
   margin-bottom: 17px;
+
 }
 
 .hiro-img{
@@ -244,6 +297,7 @@ background: #FFF;
   position: absolute;
   align-items: center;
 
+  margin-left: 15px;
   top: 50%;
   transform: translate(0%, -50%);
 }
@@ -588,6 +642,40 @@ line-height: 140%; /* 16.8px */
 
     display: block;
     text-align: center;
-
     padding-bottom: 40px;
 }
+
+
+
+/* мобільне меню */
+
+.mob-menu{
+  background-color: #1A1A1A;
+}
+
+.mob-menu-list{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.mob-menu-elem{
+color:#E6E7ED;
+font-size: 14px;
+font-weight: 500;
+line-height: 150%; /* 21px */
+}
+
+.mob-menu-elem:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.mob-menu-border{
+  width: 310px;
+  border-bottom: 1px solid #666;
+  margin-bottom: 20px;
+}
+
+.mob-menu-text{
+margin-bottom: 20px;
+}
+
